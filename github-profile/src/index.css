@@ -1,0 +1,84 @@
+/*GENERAL STYLING */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'PT Sans Narrow', "sans-serif";
+  background-color: #FAD961;
+  background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+}
+
+/* SPECIFIC STYLING */
+
+.catchAllContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileCardMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1rem 1rem 1rem 1rem black;
+  background-color: #FAD961;
+  width: 50%;
+  font-size: 1.7rem;
+  color: black;
+  margin: 1rem;
+}
+
+.friendsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.friendsProfileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1rem 1rem 1rem 1rem black;
+  background-color: #FAD961;
+  width: 50%;
+  font-size: 1.7rem;
+  color: black;
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.loginEntryForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+label, input {
+  margin: 1rem;
+}
+input {
+  border-radius: 1rem;
+  border: .65rem ridge black;
+}
+button {
+  border-radius: 1rem;
+  border: .65rem ridge black;
+  background-color: white;
+}
+
+/* MOBILE MEDIA QUERY */
+
+@media (max-width: 650px){
+  .loginEntryForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
